@@ -27,8 +27,7 @@
         "cpuid.coresPerSocket": "1",
         "memsize": "{{ user `memory` }}",
         "numvcpus": "{{ user `cpus` }}"
-      },
-      "vmx_remove_ethernet_interfaces": true
+      }
     },
     {
       "boot_command": [
